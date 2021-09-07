@@ -6,7 +6,7 @@
 /*   By: gasselin <gasselin@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 16:36:16 by gasselin          #+#    #+#             */
-/*   Updated: 2021/08/31 13:11:59 by gasselin         ###   ########.fr       */
+/*   Updated: 2021/09/02 14:06:40 by gasselin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ void	build_pile(t_push *ps)
 	}
 	else
 		ft_fill_tab(ps);
-	if (is_sorted(ps->a) || check_duplicates(ps))
+	if (check_duplicates(ps) || is_sorted(ps->a))
 	{
 		free (ps->a.array);
 		free (ps->b.array);
