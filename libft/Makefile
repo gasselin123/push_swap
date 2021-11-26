@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gasselin <gasselin@student.42.fr>          +#+  +:+       +#+         #
+#    By: gasselin <gasselin@student.42quebec.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/10 09:29:07 by gasselin          #+#    #+#              #
-#    Updated: 2021/08/17 15:06:21 by gasselin         ###   ########.fr        #
+#    Updated: 2021/10/15 11:31:30 by gasselin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,7 @@ SRCS	= ft_memset.c \
 		ft_strchr.c \
 		ft_strchr_rev.c \
 		ft_strrchr.c \
+		ft_strcmp.c \
 		ft_strncmp.c \
 		ft_strlcpy.c \
 		ft_strlcat.c \
@@ -86,6 +87,6 @@ clean:
 fclean: clean
 		${RM} ${NAME}
 
-re:		fclean all
+re:		fclean bonus
 
 .PHONY: all bonus clean fclean re
