@@ -1,1 +1,1 @@
-[![gasselin's Push Swap Score](https://badge42.herokuapp.com/api/project/gasselin/push_swap)](https://github.com/JaeSeoKim/badge42)
+[![gasselin's 42 push_swap Score](https://badge42.vercel.app/api/v2/cl3346xta00920ajxpf1ddxua/project/2314436)](https://github.com/JaeSeoKim/badge42)
